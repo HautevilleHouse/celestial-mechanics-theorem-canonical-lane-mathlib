@@ -1,0 +1,30 @@
+import CelestialMechanicsCanonicalLaneLean.Basic
+import CelestialMechanicsCanonicalLaneLean.SourcePackage
+import CelestialMechanicsCanonicalLaneLean.SourceDependencies
+import CelestialMechanicsCanonicalLaneLean.Formalization
+import CelestialMechanicsCanonicalLaneLean.ReviewerBridge
+import CelestialMechanicsCanonicalLaneLean.TheoremStatement
+import CelestialMechanicsCanonicalLaneLean.MathlibObjects
+import CelestialMechanicsCanonicalLaneLean.AdmissibleClass
+import CelestialMechanicsCanonicalLaneLean.Projection
+import CelestialMechanicsCanonicalLaneLean.BridgeLemmas
+import CelestialMechanicsCanonicalLaneLean.GateLemmas
+import CelestialMechanicsCanonicalLaneLean.FinalTheorem
+import CelestialMechanicsCanonicalLaneLean.NBodyDynamics
+import CelestialMechanicsCanonicalLaneLean.KeplerOrbitPerturbation
+import CelestialMechanicsCanonicalLaneLean.HamiltonianMech
+import CelestialMechanicsCanonicalLaneLean.StabilityTheory
+import CelestialMechanicsCanonicalLaneLean.CentralForceModel
+import CelestialMechanicsCanonicalLaneLean.BifurcationAnalysis
+import CelestialMechanicsCanonicalLaneLean.ThreeBodySpecialCases
+
+namespace HautevilleHouse
+namespace CelestialMechanicsCanonicalLaneLean
+
+-- root module marker
+
+def celestialMechanicsDescription : String :=
+  "Celestial Mechanics Canonical Lane Lean package: encodes the N-body dynamics, Keplerian perturbations, Hamiltonian structure, stability theory, central force models, bifurcation analysis, and three-body special cases as admissible-class bridge/closure structures."
+
+end CelestialMechanicsCanonicalLaneLean
+end HautevilleHouse

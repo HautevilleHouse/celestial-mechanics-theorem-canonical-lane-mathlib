@@ -1,0 +1,14 @@
+import CelestialMechanicsTheoremCanonicalLaneLean.AdmissibleClass
+import CelestialMechanicsTheoremCanonicalLaneLean.BridgeLemmas
+import CelestialMechanicsTheoremCanonicalLaneLean.GateLemmas
+import CelestialMechanicsTheoremCanonicalLaneLean.FinalTheorem
+import CelestialMechanicsTheoremCanonicalLaneLean.ThreeBodyPackage
+import CelestialMechanicsTheoremCanonicalLaneLean.PerturbationTheory
+
+namespace HautevilleHouse
+namespace CelestialMechanicsTheoremCanonicalLaneLean
+
+-- Root module for the Celestial Mechanics Theorem canonical lane.
+
+end CelestialMechanicsTheoremCanonicalLaneLean
+end HautevilleHouse
